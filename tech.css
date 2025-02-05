@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    width: 1500px;
+    height: 55px;
+    background-color: #86cdcf;
+    color: black;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    width: 1300px;
+    height: 50px;
+    margin-left: 0rem;
+    margin-right: 2rem;
+
+}
+
+
+.image1 {
+    width: 1500px;
+    height: 400px;
+    background-image: url(IEEE-scaled.jpg);
+    background-size: cover;
+}
+
+
+.titles {
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titles h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.titles h5 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.date {
+    width: 700px;
+    height: 50px;
+    background-color: #212529;
+    color: #f8f9fa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 24.5%;
+    margin-top: 50px;
+    font-size: 1rem;    
+}
+
+.college-date {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.college-date h5 {
+    font-size: 1.2rem;
+}
+
+
+.college-date h4 {
+    font-size: 26px;
+    margin-top: 12px;
+}
+
+.college-date h3 {
+    font-size: 23px;
+    margin-top: 12px;
+}
+
+
+.prog-update {
+    width: 400px;
+    height: 55px;
+    background-color: #0dcaf0;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 35px;
+    border-radius: 5px; 
+}
+
+.prog-update a {
+    text-decoration: none;
+    color: black;
+}
+
+.publish {
+    width: 700px;
+    height: 38px;
+    background-color: #212529;
+    color: #f8f9fa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 24.5%;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.tehi-title {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tehi-title p {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    max-width: 500px;
+}
+
+.news-update {
+    color: #212529;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.news-update h2 {
+        margin-right: 60%;
+        font-size: 1.7rem;
+        color: #212529;
+}
+
+.col {
+     width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.col p {
+     padding-right: 115px;
+     margin-top: 25px;
+}   
+
+.next-date p {
+         width: 60%;
+         margin-left: 15%;        
+}
+
+
+table, tr {
+    border: none;
+    border-collapse: collapse;
+   width: 70%;
+   height: 30%;
+   margin-top: 20px;
+   margin-left: 11%;
+}
+
+
+.naya {
+    columns: 200px 2;
+    margin-left: 120px;
+    margin-top: 35px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.abhishek {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+#satya {
+    margin-top: 10px;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 300px;
+}
+
+.payment-link {
+    text-decoration: none;
+    /* color: black; */
+    margin-left: 135px;
+    margin-top: 30px;
+}
+
+
+.import-info {
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: larger;
+}
+
+.import-info p,a {
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.tour-info {
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: larger;
+}
+
+.tour-info p, a {
+    margin-top: 10px;
+}
+
+
+.scope {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 2px;
+}
+
+#soft-compu {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#data-analytics {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.right-column {
+    margin-top: 37px;
+    margin-left: 150px;
+
+}
+
+#Networks {
+    margin-top: 15px;
+}
+
+#healthcare {
+    margin-top: 8px;
+}
+
+#Sensor {
+    margin-top: 8px;
+}
+
+#data {
+    margin-top: 8px;
+}
+
+#applications {
+    margin-top: 8px;
+}
+
+#Advanced {
+    margin-top: 8px;
+}
+
+#Augmented {
+    margin-top: 8px;
+}
+
+#Trends {
+    margin-top: 8px;
+}
+
+#digital {
+    margin-top: 8px;
+}
+
+#and {
+    margin-top: 8px;
+}
+
+#computer {
+    margin-top: 8px;
+}
+
+#sys {
+    margin-top: 8px;
+}
+
+.left-column p {
+    margin-bottom: 13px;
+}
+
+.robot {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#siga {
+    font-size: 1.1rem;
+    
+}
+
+#Electronic {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.auto p {  
+    margin-bottom: 7px;  
+}
+
+.sponsar h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: black
+}
+
+/* .logo {
+    background-image: url(download.png);
+    background-image: url(TEHI.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+} */
+
+/* .bupa {
+    background-image: url(download.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 30px;
+} */
+
+.bupa img {
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.last {
+    background-color: #6c757d;
+    margin-top: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
